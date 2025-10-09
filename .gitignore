@@ -1,1 +1,24 @@
-.venv
+# Virtualenv
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Datasets & Logs
+sample_data/
+nagaoka_gis/
+dog_cat_photos/
+app_log.txt
+*.csv
+*.json
+*.txt
+
+# Images
+*.png
+*.jpg
+
+# OS & Editor specific
+.DS_Store
+.vscode/
